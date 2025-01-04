@@ -1,0 +1,15 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A simple proxy server with request logging and header modification",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.2"
+  }
+}
